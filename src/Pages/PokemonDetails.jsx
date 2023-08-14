@@ -38,7 +38,7 @@ const PokemonDetails = () => {
   return (
    <Box>
     <Heading size="lg" my={4}>{pokemonDetails.name}</Heading>
-    {/* <Image src={pokemonDetails.sprites.back_default} alt={pokemonDetails.name}/> */}
+    <Image src={pokemonDetails.sprites.front_default} alt={pokemonDetails.name} width="100px"/>
     <Stack spacing={2} mt={4}>
           <Text>ID: {pokemonDetails.id}</Text>
           <Text>Base Experience: {pokemonDetails.base_experience}</Text>
